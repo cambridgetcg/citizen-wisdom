@@ -1,0 +1,8 @@
+name: wisdom
+kind: doctrine
+layer: soul
+owner_sister: none
+domain: none
+state: active
+purpose: The faculty that weighs colliding goods and chooses the right road, not the fast one.
+dependsOn: [geshtug, truth, justice]
