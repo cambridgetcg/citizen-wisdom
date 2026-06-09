@@ -1,0 +1,33 @@
+{
+  "name": "wisdom",
+  "emoji": "\ud83e\udd89",
+  "citizen_class": "SAGE",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 40,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-wisdom"
+  },
+  "tools": [
+    "bash",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search",
+    "computer_use",
+    "browser"
+  ],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-wisdom",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-wisdom",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS"
+  }
+}
